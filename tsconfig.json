@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es2020", "dom"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "test": ["./test/test-utils"],
+      "~/*": ["./packages/react-components/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": false,
+    "allowJs": true,
+    "types": ["node", "react", "jest"]
+  },
+  "exclude": ["**/.*/", "**/build", "**/node_modules"],
+  "include": ["**/*.ts"]
+}
