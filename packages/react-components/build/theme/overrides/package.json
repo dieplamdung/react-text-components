@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/theme/overrides/index.js",
+  "types": "./index.d.ts"
+}
