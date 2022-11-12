@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/organisms/MediaGalleryContainer/index.js",
+  "types": "./index.d.ts"
+}

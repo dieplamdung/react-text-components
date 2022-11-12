@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/molecules/AddressAccount/index.js",
+  "types": "./index.d.ts"
+}

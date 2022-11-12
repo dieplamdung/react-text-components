@@ -1,0 +1,6 @@
+/.git
+/.yarn
+.next
+build
+node_modules
+storybook-static

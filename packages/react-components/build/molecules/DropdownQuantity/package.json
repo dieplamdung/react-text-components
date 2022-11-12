@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/molecules/DropdownQuantity/index.js",
+  "types": "./index.d.ts"
+}

@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/molecules/PopularNewsCard/index.js",
+  "types": "./index.d.ts"
+}

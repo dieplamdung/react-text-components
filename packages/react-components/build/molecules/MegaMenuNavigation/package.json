@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/molecules/MegaMenuNavigation/index.js",
+  "types": "./index.d.ts"
+}

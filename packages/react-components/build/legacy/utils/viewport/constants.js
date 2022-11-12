@@ -1,0 +1,9 @@
+export var MOBILE_MAX_WIDTH = '100%';
+export var TABLET_MAX_WIDTH = '720px';
+export var SMALL_DESKTOP_MAX_WIDTH = '960px';
+export var DESKTOP_MAX_WIDTH = '1140px';
+export var EXTRA_SMALL_MOBILE_LIMIT = 'xs';
+export var SMALL_MOBILE_LIMIT = 'sm';
+export var MOBILE_LIMIT = 'md';
+export var TABLET_LIMIT = 'lg';
+export var SMALL_DESKTOP_LIMIT = 'xl';

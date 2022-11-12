@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/organisms/Content404Page/index.js",
+  "types": "./index.d.ts"
+}

@@ -1,0 +1,21 @@
+import React from 'react';
+import { ButtonProps } from '~/atoms/Button';
+import { ListingType } from '~/molecules/FilterSelectionListing';
+import { TypeDataFilter } from '~/organisms/ScrollingFilterListing';
+export declare type IContentFilter = {
+    sortByText: string;
+    filterByText: string;
+    showMoreText: string;
+    showLessText: string;
+    sortBy: ListingType[];
+    dataFilter: TypeDataFilter[];
+    buttonPropsDone?: ButtonProps;
+    buttonPropsClear?: ButtonProps;
+    isShowFilter: boolean;
+    onClose: () => void;
+    onFilter: (filter: any, sort: any) => void;
+    onActivePill: (v: boolean) => void;
+};
+declare function ContentFilter(props: IContentFilter): JSX.Element;
+declare const _default: React.MemoExoticComponent<typeof ContentFilter>;
+export default _default;

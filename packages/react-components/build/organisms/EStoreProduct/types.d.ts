@@ -1,0 +1,21 @@
+import { ListingType } from "~/molecules/FilterSelectionListing";
+import { ButtonProps } from '~/atoms/Button';
+import { TypeDataFilter } from "../ScrollingFilterListing";
+import { ITabFilter } from "./TabFilter";
+import { IProductItem } from "./ProductItem";
+export declare type IEStoreProduct = {
+    typeTabFilter: ITabFilter;
+    sortByText: string;
+    filterByText: string;
+    showMoreText: string;
+    showLessText: string;
+    sortBy: ListingType[];
+    dataFilter: TypeDataFilter[];
+    buttonPropsDone?: ButtonProps;
+    buttonPropsClear?: ButtonProps;
+    onFilter: (filter: any, sort: any, callback?: () => void) => void;
+    productList: IProductItem[];
+    onLoadMore: () => void;
+    hadLoadMore: boolean;
+    onSelectTab: (v: string, callback: () => void) => void;
+};

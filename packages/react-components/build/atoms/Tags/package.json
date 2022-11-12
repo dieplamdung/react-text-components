@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/atoms/Tags/index.js",
+  "types": "./index.d.ts"
+}

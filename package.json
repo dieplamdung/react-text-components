@@ -1,14 +1,15 @@
 {
-  "name": "test-components",
+  "name": "bandai-components",
   "version": "2.0.3",
   "private": true,
-
+  "repository": "git@github.com:wearesection/bandai-components.git",
+  "author": "Phu Tran <phu.tran@techvsi.com>",
   "license": "MIT",
   "scripts": {
-    "rc:build:codesandbox": "yarn workspace @react/test-react-components build",
-    "rc:release": "yarn workspace @react/test-react-components release",
-    "version:patch": "yarn version patch; yarn workspace @react/test-react-components version patch",
-    "version:minor": "yarn version minor; yarn workspace @react/test-react-components version minor",
+    "rc:build:codesandbox": "yarn workspace @wearesection/bandai-react-components build",
+    "rc:release": "yarn workspace @wearesection/bandai-react-components release",
+    "version:patch": "yarn version patch; yarn workspace @wearesection/bandai-react-components version patch",
+    "version:minor": "yarn version minor; yarn workspace @wearesection/bandai-react-components version minor",
     "storybook": "start-storybook -s packages/react-components/public -p 6006",
     "build-storybook": "build-storybook -s packages/react-components/public",
     "test": "jest",
@@ -35,6 +36,8 @@
     "@babel/preset-typescript": "^7.15.0",
     "@babel/register": "^7.15.3",
     "@babel/runtime": "^7.15.4",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.0.4",
     "@mui/material": "^5.0.5",
     "@mui/styles": "^5.0.2",
@@ -51,7 +54,9 @@
     "@types/jest": "^27.0.2",
     "@types/no-scroll": "^2",
     "@types/react": "^17.0.27",
+    "@types/react-slick": "^0",
     "@types/sinon": "^10.0.4",
+    "@types/slick-carousel": "^1",
     "@types/styled-components": "^5",
     "@types/testing-library__jest-dom": "^5",
     "@types/webpack": "^5.28.0",
@@ -119,7 +124,18 @@
   "dependencies": {
     "echarts": "^5.2.2",
     "echarts-for-react": "^3.0.2",
+    "file-saver": "^2.0.5",
+    "gsap": "^3.10.4",
+    "jszip": "^3.10.1",
+    "moment-timezone": "^0.5.34",
     "no-scroll": "^2.1.1",
-    "react-hook-form": "^7.22.5"
+    "react-hook-form": "^7.22.5",
+    "react-infinite-scroll-hook": "^4.0.3",
+    "react-number-format": "^4.7.3",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3",
+    "swiper": "^8.3.2"
   }
 }

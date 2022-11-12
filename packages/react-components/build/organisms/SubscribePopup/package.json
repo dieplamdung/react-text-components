@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/organisms/SubscribePopup/index.js",
+  "types": "./index.d.ts"
+}

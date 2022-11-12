@@ -1,0 +1,20 @@
+import React, { ReactNode } from 'react';
+import { ITab } from './Tabs';
+export declare type IProductItem = {
+    tabList: ITab[];
+    nextLink?: (href: string, child: ReactNode) => ReactNode;
+    href: string;
+    hrefImg: string;
+    isDLC?: boolean;
+    titleDLC?: string;
+    listIcon?: ReactNode[];
+    language?: string;
+    titleGame: string;
+    titleFrom: string;
+    price: string;
+    priceOld?: string;
+    isShowBottom?: boolean;
+};
+declare function ProductItem(props: IProductItem): JSX.Element;
+declare const _default: React.MemoExoticComponent<typeof ProductItem>;
+export default _default;

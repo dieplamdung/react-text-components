@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/organisms/ScrollingMediaGalleryContainer/index.js",
+  "types": "./index.d.ts"
+}

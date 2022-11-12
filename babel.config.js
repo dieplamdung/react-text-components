@@ -6,7 +6,7 @@ function resolveAliasPath(relativeToBabelConf) {
 }
 
 const defaultAlias = {
-  '@react/react-components': resolveAliasPath('./packages/react-components/src'),
+  '@bandai/react-components': resolveAliasPath('./packages/react-components/src'),
   '~': resolveAliasPath('./packages/react-components/src'),
 };
 module.exports = function getBabelConfig(api) {

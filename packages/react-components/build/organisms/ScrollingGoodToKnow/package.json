@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/organisms/ScrollingGoodToKnow/index.js",
+  "types": "./index.d.ts"
+}

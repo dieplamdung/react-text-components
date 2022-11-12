@@ -1,0 +1,6 @@
+{
+  "sideEffects": false,
+  "module": "./index.js",
+  "main": "../../node/molecules/FeaturedNewsCard/index.js",
+  "types": "./index.d.ts"
+}
