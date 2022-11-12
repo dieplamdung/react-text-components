@@ -56,7 +56,7 @@ const Categories = (props: IICategories) => {
         },
       }}
     >
-      <Typography variant='p1' color={colors.primary.bandaiNamcoWhite}
+      <Typography variant='p1' color={colors.primary.reactNamcoWhite}
         sx={{
           position: 'absolute',
           top: '50%',

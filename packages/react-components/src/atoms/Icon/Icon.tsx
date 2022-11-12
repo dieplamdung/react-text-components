@@ -354,7 +354,7 @@ export const IconNextCardNormal = (props: SvgIconProps) => {
         transition:
           'fill 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,color 250ms cubic-bezier(0.4,0,0.2,1) 0ms',
         '&:hover': {
-          fill: colors.primary.bandaiNamcoRed,
+          fill: colors.primary.reactNamcoRed,
         },
       }}
     >
@@ -385,7 +385,7 @@ export const IconNextCardSmall = (props: SvgIconProps) => {
         transition:
           'fill 250ms cubic-bezier(0.4,0,0.2,1) 0ms,box-shadow 250ms cubic-bezier(0.4,0,0.2,1) 0ms,border-color 250ms cubic-bezier(0.4,0,0.2,1) 0ms,color 250ms cubic-bezier(0.4,0,0.2,1) 0ms',
         '&:hover': {
-          fill: colors.primary.bandaiNamcoRed,
+          fill: colors.primary.reactNamcoRed,
         },
       }}
     >
@@ -461,7 +461,7 @@ export const IconNextSlide = (props: SvgIconProps) => {
         cursor: 'pointer',
         '&:hover': {
           '& path': {
-            stroke: colors.primary.bandaiNamcoRed,
+            stroke: colors.primary.reactNamcoRed,
           },
         },
         transition:
@@ -507,7 +507,7 @@ export const IconPrevSlide = (props: SvgIconProps) => {
         cursor: 'pointer',
         '&:hover': {
           '& path': {
-            stroke: colors.primary.bandaiNamcoRed,
+            stroke: colors.primary.reactNamcoRed,
           },
         },
         transition:
@@ -1121,7 +1121,7 @@ export const IconLink = (props: SvgIconProps) => {
   );
 };
 
-export const IconBandaiNamco = (props: SvgIconProps) => {
+export const IconreactNamco = (props: SvgIconProps) => {
   return (
     <SvgIcon
       {...props}

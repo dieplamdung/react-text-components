@@ -66,7 +66,7 @@ const Checkbox: React.FC<ICheckBoxProps> = ({ isChecked = false, onChange, title
                 background: isCheck ? "rgba(1, 105, 178, 0.1)" : colors.neutral.neutral6,
                 borderRadius: "4px",
                 border: "1px solid",
-                borderColor: isCheck ? colors.secondary.bandaiNamcoBlue : colors.neutral.neutral6,
+                borderColor: isCheck ? colors.secondary.reactNamcoBlue : colors.neutral.neutral6,
                 transform: "all 0.3s",
                 cursor: "pointer"
             }}

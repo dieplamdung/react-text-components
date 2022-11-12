@@ -1,24 +1,24 @@
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+Object.defineProperty(exports, '__esModule', {
+  value: true,
 });
 exports.default = void 0;
 const colors = {
-  // Bandai colors
+  // react colors
   primary: {
     p1: '#072340',
     p2: '#4D91DD',
     dark: '#000000',
-    bandaiNamcoRed: '#E60000',
-    bandaiNamcoBlack: '#1E1E1E',
-    bandaiNamcoWhite: '#FFFFFF'
+    reactNamcoRed: '#E60000',
+    reactNamcoBlack: '#1E1E1E',
+    reactNamcoWhite: '#FFFFFF',
   },
   secondary: {
-    bandaiNamcoBlue: '#0169B2',
-    bandaiNamcoGreen: '#00B0B8',
-    bandaiNamcoYellow: '#F5B700',
-    bandaiNamcoPink: '#DF4662'
+    reactNamcoBlue: '#0169B2',
+    reactNamcoGreen: '#00B0B8',
+    reactNamcoYellow: '#F5B700',
+    reactNamcoPink: '#DF4662',
   },
   neutral: {
     white: '#FFFFFF',
@@ -28,7 +28,7 @@ const colors = {
     neutral5: '#DDDDDD',
     neutral6: '#F1F1F1',
     neutral7: '#F6F6F6',
-    neutral8: '#F9F9F9'
+    neutral8: '#F9F9F9',
   },
   accent: {
     accentBlue: '#105789',
@@ -36,39 +36,39 @@ const colors = {
     accentPink: '#CB2C49',
     accentWhite: {
       1: 'rgba(255, 255 , 255, 0.22)',
-      2: 'rgba(255, 255, 255, 0.3)'
+      2: 'rgba(255, 255, 255, 0.3)',
     },
     accentRed: {
-      1: "#C30000",
-      2: "#FF5858",
+      1: '#C30000',
+      2: '#FF5858',
       3: 'rgba(255, 88, 88, 0.05)',
-      4: 'rgba(255, 0, 0, 0.1)'
+      4: 'rgba(255, 0, 0, 0.1)',
     },
     accentGreen: {
-      1: "#00939A",
-      2: "#36D56D",
-      3: '#F7FFF9'
-    }
+      1: '#00939A',
+      2: '#36D56D',
+      3: '#F7FFF9',
+    },
   },
   // StashAway colors
   secondaryAvocado: {
     main: '#4671B7',
     shade900: '#6791D1',
     shade800: '#AECBF5',
-    shade700: '#D6E5FA'
+    shade700: '#D6E5FA',
   },
   secondaryBlue: {
     main: '#70B4D8',
     shade900: '#84C7E8',
     shade800: '#B6DEEE',
-    shade700: '#DFEAF1'
+    shade700: '#DFEAF1',
   },
   secondaryGreen: {
     main: '#7EC1BF',
     shade900: '#9CD8D7',
     shade800: '#C3E9E8',
     shade700: '#E1F4F3',
-    shade600: '#559B99'
+    shade600: '#559B99',
   },
   secondaryGray: {
     main: '#5B798B',
@@ -79,7 +79,7 @@ const colors = {
     shade500: '#DEDEDE',
     shade400: '#E3E3E3',
     shade300: '#CACBCC',
-    shade100: '#EBEEF1'
+    shade100: '#EBEEF1',
   },
   secondaryOrange: {
     main: '#E4B24A',
@@ -87,17 +87,17 @@ const colors = {
     shade800: '#F2DCA7',
     shade700: '#F2EAD3',
     shade600: '#DDB35C',
-    shade500: '#F7CCA9'
+    shade500: '#F7CCA9',
   },
   secondaryBrown: {
     main: '#B0736B',
     shade900: '#D0887F',
-    shade800: '#E0ADA7'
+    shade800: '#E0ADA7',
   },
   blink: {
     shade900: '#E2B1AC',
     shade800: '#EDC4BF',
-    shade700: '#EDC2BD'
+    shade700: '#EDC2BD',
   },
   otherColor: {
     picasso: '#fff392',
@@ -118,8 +118,8 @@ const colors = {
     alabaster: '#fbfbfb',
     quickSilver: '#a5a5a5',
     english: '#121212',
-    gray: '#7E7E7E'
-  }
+    gray: '#7E7E7E',
+  },
 };
 var _default = colors;
 exports.default = _default;

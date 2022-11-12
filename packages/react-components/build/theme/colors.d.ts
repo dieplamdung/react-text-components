@@ -3,15 +3,15 @@ declare const colors: {
         p1: string;
         p2: string;
         dark: string;
-        bandaiNamcoRed: string;
-        bandaiNamcoBlack: string;
-        bandaiNamcoWhite: string;
+        reactNamcoRed: string;
+        reactNamcoBlack: string;
+        reactNamcoWhite: string;
     };
     secondary: {
-        bandaiNamcoBlue: string;
-        bandaiNamcoGreen: string;
-        bandaiNamcoYellow: string;
-        bandaiNamcoPink: string;
+        reactNamcoBlue: string;
+        reactNamcoGreen: string;
+        reactNamcoYellow: string;
+        reactNamcoPink: string;
     };
     neutral: {
         white: string;

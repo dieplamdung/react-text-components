@@ -33,7 +33,7 @@ import {
   IconInstagram,
   IconTwitter,
   IconLink,
-  IconBandaiNamco,
+  IconreactNamco,
   IconPlayVideo,
   IconNextCircle,
   IconLocation,
@@ -73,7 +73,7 @@ export default {
 
 const TemplateIconFreeGifts: ComponentStory<typeof IconFreeGifts> = (args) => (
   <Container>
-      <IconFreeGifts {...args}  />
+    <IconFreeGifts {...args} />
   </Container>
 );
 export const FreeGifts = TemplateIconFreeGifts.bind({});
@@ -83,7 +83,7 @@ FreeGifts.args = {
 
 const TemplateIconDelete: ComponentStory<typeof IconDelete> = (args) => (
   <Container>
-      <IconDelete {...args}  />
+    <IconDelete {...args} />
   </Container>
 );
 export const Delete = TemplateIconDelete.bind({});
@@ -495,12 +495,12 @@ const TemplateIconLink: ComponentStory<typeof IconLink> = (args) => (
 );
 export const Link = TemplateIconLink.bind({});
 
-const TemplateIconBandaiNamco: ComponentStory<typeof IconBandaiNamco> = (args) => (
+const TemplateIconreactNamco: ComponentStory<typeof IconreactNamco> = (args) => (
   <Container>
-    <IconBandaiNamco {...args} />
+    <IconreactNamco {...args} />
   </Container>
 );
-export const Logo = TemplateIconBandaiNamco.bind({});
+export const Logo = TemplateIconreactNamco.bind({});
 
 const TemplateIconPlayVideo: ComponentStory<typeof IconPlayVideo> = (args) => (
   <Container>

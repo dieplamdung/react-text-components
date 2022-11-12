@@ -93,7 +93,7 @@ const AdsContainer: React.FC<IAdsContainerProps> = ({ img, alt, title, descripti
                             xs: "-0.4px",
                             md: "-0.8px"
                         },
-                        color: colors.primary.bandaiNamcoBlack,
+                        color: colors.primary.reactNamcoBlack,
                         marginTop: {
                             xs: "20px",
                             md: "32px",

@@ -64,7 +64,7 @@ const RadioButton: React.FC<IRadioButtonProps> = ({ isChecked = false, onChange,
                 background: isCheck ? "rgba(1, 105, 178, 0.1)" : colors.neutral.neutral6,
                 borderRadius: "39px",
                 border: "1px solid",
-                borderColor: isCheck ? colors.secondary.bandaiNamcoBlue : colors.neutral.neutral6,
+                borderColor: isCheck ? colors.secondary.reactNamcoBlue : colors.neutral.neutral6,
                 transform: "all 0.3s",
                 cursor: "pointer"
             }}

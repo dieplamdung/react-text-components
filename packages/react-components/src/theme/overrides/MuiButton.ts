@@ -46,14 +46,14 @@ const MuiButton = {
       props: { variant: 'primary' },
       style: {
         backgroundColor: 'rgba(230, 0, 0, 0.1)',
-        color: colors.primary.bandaiNamcoRed,
+        color: colors.primary.reactNamcoRed,
         lineHeight: '22px',
         '&:hover': {
-          backgroundColor: colors.primary.bandaiNamcoRed,
+          backgroundColor: colors.primary.reactNamcoRed,
           color: colors.neutral.white,
           '& svg': {
             '& path': {
-              fill: colors.primary.bandaiNamcoWhite
+              fill: colors.primary.reactNamcoWhite
             }
           }
         },
@@ -72,12 +72,12 @@ const MuiButton = {
     {
       props: { variant: 'primaryDark' },
       style: {
-        backgroundColor: colors.primary.bandaiNamcoRed,
+        backgroundColor: colors.primary.reactNamcoRed,
         color: colors.neutral.white,
         lineHeight: '22px',
         '& svg': {
           '& path': {
-            fill: colors.primary.bandaiNamcoWhite
+            fill: colors.primary.reactNamcoWhite
           }
         },
         '&:hover': {
@@ -99,12 +99,12 @@ const MuiButton = {
     {
       props: { variant: 'secondaryBlack' },
       style: {
-        backgroundColor: colors.primary.bandaiNamcoBlack,
+        backgroundColor: colors.primary.reactNamcoBlack,
         color: colors.neutral.white,
         lineHeight: '22px',
         '& svg': {
           '& path': {
-            fill: colors.primary.bandaiNamcoWhite
+            fill: colors.primary.reactNamcoWhite
           }
         },
         '&:hover': {
@@ -128,20 +128,20 @@ const MuiButton = {
       style: {
         // borderColor: primaryColor,
         border: `1px solid ${colors.neutral.neutral5}`,
-        color: colors.primary.bandaiNamcoBlack,
+        color: colors.primary.reactNamcoBlack,
         lineHeight: '22px',
         '& svg': {
           '& path': {
-            fill: colors.primary.bandaiNamcoBlack
+            fill: colors.primary.reactNamcoBlack
           }
         },
         '&:hover': {
-          border: `1px solid ${colors.primary.bandaiNamcoRed}`,
+          border: `1px solid ${colors.primary.reactNamcoRed}`,
           backgroundColor: 'transparent',
-          color: colors.primary.bandaiNamcoRed,
+          color: colors.primary.reactNamcoRed,
           '& svg': {
             '& path': {
-              fill: colors.primary.bandaiNamcoRed
+              fill: colors.primary.reactNamcoRed
             }
           },
         },
@@ -171,10 +171,10 @@ const MuiButton = {
         '&:hover': {
           border: `1px solid ${colors.neutral.white}`,
           backgroundColor: colors.neutral.white,
-          color: colors.primary.bandaiNamcoBlack,
+          color: colors.primary.reactNamcoBlack,
           '& svg': {
             '& path': {
-              fill: colors.primary.bandaiNamcoBlack
+              fill: colors.primary.reactNamcoBlack
             }
           },
         },

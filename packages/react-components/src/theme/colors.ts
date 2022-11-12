@@ -1,19 +1,19 @@
 const colors = {
-  // Bandai colors
+  // react colors
   primary: {
     p1: '#072340',
     p2: '#4D91DD',
     dark: '#000000',
-    bandaiNamcoRed: '#E60000',
-    bandaiNamcoBlack: '#1E1E1E',
-    bandaiNamcoWhite: '#FFFFFF',
+    reactNamcoRed: '#E60000',
+    reactNamcoBlack: '#1E1E1E',
+    reactNamcoWhite: '#FFFFFF',
   },
 
   secondary: {
-    bandaiNamcoBlue: '#0169B2',
-    bandaiNamcoGreen: '#00B0B8',
-    bandaiNamcoYellow: '#F5B700',
-    bandaiNamcoPink: '#DF4662',
+    reactNamcoBlue: '#0169B2',
+    reactNamcoGreen: '#00B0B8',
+    reactNamcoYellow: '#F5B700',
+    reactNamcoPink: '#DF4662',
   },
 
   neutral: {

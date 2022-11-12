@@ -10,7 +10,7 @@ const MuiSelect = {
       width: '100%',
     },
     select: {
-      color: colors.primary.bandaiNamcoBlack,
+      color: colors.primary.reactNamcoBlack,
       padding: '18.5px 32px 18.5px 32px',
       '&.Mui-disabled': {
         color: colors.neutral.neutral5,

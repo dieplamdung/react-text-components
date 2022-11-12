@@ -26,15 +26,15 @@ const ButtonPrice = (props: IButtonPrice) => {
       <Button
         {...buttonProps}
         sx={{
-          backgroundColor: isButtonSecond ? colors.primary.bandaiNamcoWhite : colors.primary.bandaiNamcoRed,
-          color: isButtonSecond ? colors.primary.bandaiNamcoBlack : colors.primary.bandaiNamcoWhite,
+          backgroundColor: isButtonSecond ? colors.primary.reactNamcoWhite : colors.primary.reactNamcoRed,
+          color: isButtonSecond ? colors.primary.reactNamcoBlack : colors.primary.reactNamcoWhite,
           padding: {
             xs: '8px 48px 12px',
             md: '10px 46.5px 14px',
           },
           '&:hover': {
-            backgroundColor: isButtonSecond ? colors.primary.bandaiNamcoWhite : colors.accent.accentRed[1],
-            color: isButtonSecond ? colors.accent.accentRed[1] : colors.primary.bandaiNamcoWhite,
+            backgroundColor: isButtonSecond ? colors.primary.reactNamcoWhite : colors.accent.accentRed[1],
+            color: isButtonSecond ? colors.accent.accentRed[1] : colors.primary.reactNamcoWhite,
           }
         }}
       >
@@ -70,7 +70,7 @@ const ButtonPrice = (props: IButtonPrice) => {
         >
           {priceProps?.label}
         </Typography>
-        <Typography variant='p7' color={colors.primary.bandaiNamcoBlack}>
+        <Typography variant='p7' color={colors.primary.reactNamcoBlack}>
           {priceProps?.currency}{!priceProps.noFormat ? formatCurrency(Number(priceProps?.amount) || 0, 2) : priceProps?.amount}
         </Typography>
       </Box>
