@@ -1,6 +1,0 @@
-{
-  "sideEffects": false,
-  "module": "./index.js",
-  "main": "../../node/atoms/ButtonPrice/index.js",
-  "types": "./index.d.ts"
-}

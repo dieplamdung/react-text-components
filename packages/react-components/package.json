@@ -1,12 +1,12 @@
 {
-  "version": "2.4.8",
-  "name": "@wearesection/bandai-react-components",
+  "version": "1.0.0",
+  "name": "@lib/react-components",
   "author": "",
   "description": "",
   "main": "./src/index.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:wearesection/bandai-components.git",
+    "url": "git@github.com:dieplamdung/react-text-components.git",
     "directory": "packages/react-components"
   },
   "license": "MIT",

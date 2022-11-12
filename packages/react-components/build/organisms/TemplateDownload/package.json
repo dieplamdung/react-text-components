@@ -1,6 +1,0 @@
-{
-  "sideEffects": false,
-  "module": "./index.js",
-  "main": "../../node/organisms/TemplateDownload/index.js",
-  "types": "./index.d.ts"
-}

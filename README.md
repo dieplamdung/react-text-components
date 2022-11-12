@@ -1,5 +1,6 @@
 # Bandai Components
-[![Node.js Package Release](https://github.com/wearesection/bandai-components/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/wearesection/bandai-components/actions/workflows/publish.yml)
+
+[![Node.js Package Release](https://github.com/wearesection/react-components/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/wearesection/react-components/actions/workflows/publish.yml)
 
 ## Releasing Component to Gitlab
 
