@@ -1,9 +1,0 @@
-export declare const MOBILE_MAX_WIDTH = "100%";
-export declare const TABLET_MAX_WIDTH = "720px";
-export declare const SMALL_DESKTOP_MAX_WIDTH = "960px";
-export declare const DESKTOP_MAX_WIDTH = "1140px";
-export declare const EXTRA_SMALL_MOBILE_LIMIT = "xs";
-export declare const SMALL_MOBILE_LIMIT = "sm";
-export declare const MOBILE_LIMIT = "md";
-export declare const TABLET_LIMIT = "lg";
-export declare const SMALL_DESKTOP_LIMIT = "xl";
