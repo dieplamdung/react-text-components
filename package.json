@@ -1,24 +1,25 @@
 {
   "name": "@themvo/react-components",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "files": [
     "dist"
   ],
   "main": "dist/index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.29",
-    "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
+    "@storybook/preset-create-react-app": "^4.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.2.3",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
     "@types/styled-components": "^5.0.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "styled-components": "^5.0.1",
-    "typescript": "^3.7.5"
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -52,11 +53,24 @@
     "@semantic-release/git"
   ],
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.14",
-    "@storybook/addon-links": "^5.3.14",
-    "@storybook/addons": "^5.3.14",
-    "@storybook/preset-create-react-app": "^2.0.0",
-    "@storybook/react": "^5.3.14",
-    "semantic-release": "^17.0.4"
-  }
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-controls": "^6.5.13",
+    "@storybook/addon-docs": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "react-app-rewired": "^2.2.1",
+    "semantic-release": "^19.0.5"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieplamdung/react-text-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dieplamdung/react-text-components/issues"
+  },
+  "homepage": "https://github.com/dieplamdung/react-text-components#readme"
 }
